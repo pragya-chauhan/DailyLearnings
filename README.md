@@ -118,3 +118,12 @@ comparison based algo, recursive
 avergae = O(nlogn)
 worscase = O(n^2)
 
+## Dynamic Programmaing
+
+Coin Change Problem, String Comparison/edit dist, Knapsack problem, Placing Parentheses
+
+- Problem Overview
+- Subproblems
+- ALgorithms
+- Reconstructing solution
+
