@@ -1,4 +1,5 @@
 
+
 # DSA @ UC SanDiego
 
 
@@ -51,4 +52,40 @@ Submitting your program to the grading system.
 	-	The first thing that it does for us is it clarifies growth rate. As I've said before, often what we care about is how does our runtime scale with the input size. And this is sort of an artifact to the fact that we often really care about what happens when we put really, really, really big inputs to our algorithm. How big can we deal with, before it starts breaking down? The second thing it does for us is that it cleans up notation.
 	-	Big-O is incredibly useful, we are going to be using it for basically everything in this course, but it does lose a lot of information about your runtime. It forgets about any constant multiples. So, if you have two algorithms, and one of them's a hundred times faster, they have the same Big-O But, in practice, if you want to make things fast, a factor of 100 is a big deal. Even a factor of two is a big deal. And so, if you really want to make things fast, once you have a good asymptotic runtime, you then want to look into the nitty-gritty details. Can I save a factor of two here? Can I rearrange things to make things run a little bit smoother? Can I make it interact better with the memory hierarchy?
 ### Common Rules:
+![image](https://user-images.githubusercontent.com/47843009/117339597-eb765080-ae6d-11eb-8c01-2c4e523b047b.png)
+
+![image](https://user-images.githubusercontent.com/47843009/117344970-051a9680-ae74-11eb-9f68-484fabfb3c6d.png)
+
+## GREEDY ALGORITHM
+Ex- Concatenate string to make the largest numbers, Car fueling
+You take the most optimized decision locally on each step, a greedy choice and iterate by the end you will have an overall optimized soulution.
+
+![image](https://user-images.githubusercontent.com/47843009/117364309-bbd64100-ae8b-11eb-929e-eb293a6cc296.png)
+
+## Divide an Conquer Algorithm
+- Break into non- overlapping subproblems
+- Lead to recursive solution because smaller problem is same as bigger problem
+- COmbine results
+
+### Linear Search
+Degenrate form of Divide and Conquer Algo
+Iterate the array until you find the element
+Iterative or Recursive
+
+WOrst case = O(n)
+Best case = O(1)
+### Binary Search
+
+sort first
+find mid point check if mmid point is the number we are looking for
+if not decide less than or greater
+
+Runtime = dropping by a factor of 1/2 
+
+Worstcase = O(logn)
+
+Ex: Multiplying polynomials, finding a word dict
+
+### Sorting Problem
+
 
