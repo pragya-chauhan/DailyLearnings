@@ -88,4 +88,33 @@ Ex: Multiplying polynomials, finding a word dict
 
 ### Sorting Problem
 
+Sorting required for a lot of algo like divide and conquer so various ways to do that discussed here:
+
+#### SELECTION SORT
+
+Scan for min in the entire array and swap with the previous
+Sorts in place
+Worst case = O(n^2)
+
+#### MERGE SORT
+
+split the array to be sorted in half
+and sort these halves
+then compare each element and the smaller one will come first in final array
+
+worst case runtime = O(nlogn)
+
+*Selection and merge sort are both comparison based algo.
+any comparison based algo will have atleast nlogn worst case runtime
+
+#### Counting Sort
+
+Count number of occurences of element
+O(n+m)
+
+#### Quick Sort
+
+comparison based algo, recursive
+avergae = O(nlogn)
+worscase = O(n^2)
 
