@@ -1,6 +1,6 @@
 
 
-# DSA @ UC SanDiego
+# Algorithms @ UC SanDiego
 
 
 ## How to solve Algorithms?
