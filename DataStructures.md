@@ -104,5 +104,27 @@ BT contains:
 
 ## PRIORITY QUEUE
 
+Generalization of a queue, queue has a begin and end for popback and pushfront. 
+But in PQ there is no begin and end but a bag of values with priority
+
+When a new element arrives we just insert(p) and if we want to withdraw we do ExtractMax() with max priority
+
+![image](https://user-images.githubusercontent.com/47843009/117550691-95411300-b00f-11eb-9cae-5964a523d766.png)
+
+![image](https://user-images.githubusercontent.com/47843009/117550882-c1a95f00-b010-11eb-81a4-d41ab14293c6.png)
+
+![image](https://user-images.githubusercontent.com/47843009/117550909-e30a4b00-b010-11eb-9aac-54f454a71a60.png)
+
+
+Prim: set of comp connect by wires minimize cost/legth of wire
+
+### Naive implementation
+
+![image](https://user-images.githubusercontent.com/47843009/117551021-89565080-b011-11eb-96ee-171f0c72f779.png)
+
+
+## Efficient Implementation
+
+![image](https://user-images.githubusercontent.com/47843009/117551163-5f515e00-b012-11eb-9f72-9f5f833adcbf.png)
 
 
